@@ -18,8 +18,8 @@ fetch('data.json')
           <img src="images/icon-ellipsis.svg">
         </div>
         <div class="card-info">
-          <h3>${d.timeframes.weekly.current}hrs</h3>
-          <p>Last Week - ${d.timeframes.weekly.previous}hrs</p>
+          <h3>${d.timeframes.weekly.current == 0 ? d.timeframes.weekly.current +`hr` : d.timeframes.weekly.current +`hrs`}</h3>
+          <p>Last Week - ${d.timeframes.weekly.previous == 0 ? d.timeframes.weekly.previous +`hr` : d.timeframes.weekly.previous +`hrs`}</p>
         </div>
       </div>`
   });
@@ -48,8 +48,8 @@ itemLink.forEach(item => {
           <img src="images/icon-ellipsis.svg">
         </div>
         <div class="card-info">
-          <h3>${d.timeframes.daily.current}hrs</h3>
-          <p>Last Day - ${d.timeframes.daily.previous}hrs</p>
+          <h3>${d.timeframes.daily.current == 0 ? d.timeframes.daily.current +`hr` : d.timeframes.daily.current +`hrs`}</h3>
+          <p>Last Day - ${d.timeframes.daily.previous == 0 ? d.timeframes.daily.previous +`hr` : d.timeframes.daily.previous +`hrs`}</p>
         </div>
       </div>`
       });
@@ -65,8 +65,8 @@ itemLink.forEach(item => {
             <img src="images/icon-ellipsis.svg">
           </div>
           <div class="card-info">
-            <h3>${d.timeframes.weekly.current}hrs</h3>
-            <p>Last Week - ${d.timeframes.weekly.previous}hrs</p>
+            <h3>${d.timeframes.weekly.current == 0 ? d.timeframes.weekly.current +`hr` : d.timeframes.weekly.current +`hrs`}</h3>
+            <p>Last Week - ${d.timeframes.weekly.previous == 0 ? d.timeframes.weekly.previous +`hr` : d.timeframes.weekly.previous +`hrs`}</p>
           </div>
         </div>`
         });
@@ -82,8 +82,8 @@ itemLink.forEach(item => {
             <img src="images/icon-ellipsis.svg">
           </div>
           <div class="card-info">
-            <h3>${d.timeframes.monthly.current}hrs</h3>
-            <p>Last Month - ${d.timeframes.monthly.previous}hrs</p>
+            <h3>${d.timeframes.monthly.current == 0 ? d.timeframes.monthly.current +`hr` : d.timeframes.monthly.current +`hrs`}</h3>
+            <p>Last Month - ${d.timeframes.monthly.previous == 0 ? d.timeframes.monthly.previous +`hr` : d.timeframes.monthly.previous +`hrs`}</p>
           </div>
         </div>`
         });
