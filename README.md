@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click Here](https://github.com/MaulidFajar/time-tracking)
-- Live Site URL: [Add live site URL here](https://maulidfajar.github.io/user-time-tracking)
+- Live Site URL: [Click Here](https://time-tracking-7hrw2mctn-maulidfajars-projects.vercel.app/)
 
 ## My process
 
